@@ -4,7 +4,7 @@ import yaml
 import os
 from settings import *
 for i in range(1,100):
-    URL = f"https://fr.memedroid.com/memes/top/ever?page={i}"
+    URL = "Votre URL"
     largest_file = ""
     largest_number = -1
     folder_path = os.path.join(os.getcwd(), "images")
